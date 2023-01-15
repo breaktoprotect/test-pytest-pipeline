@@ -9,3 +9,17 @@ class Rectangle:
 
     def get_area(self) -> float:
         return self.length * self.breadth
+
+    def get_length(self) -> float:
+        return self.length
+
+    def get_breadth(self) -> float:
+        return self.breadth
+
+    def set_length(self, length) -> bool:
+        self.length = length
+        return True
+
+    def set_breadth(self, breadth) -> bool:
+        self.breadth = breadth
+        return True
